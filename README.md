@@ -1,2 +1,2 @@
-# Xeon-PairCode
+# RHODVICK-PairCode
 Pair code generator for whatsapp bots
