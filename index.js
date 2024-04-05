@@ -12,7 +12,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "916909137213"
+let phoneNumber = "254700150919"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -93,9 +93,9 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this file with anybody⚠️\n
 ┌─❖
-│ Ohayo 😽
+│ ASANTE SANA 😽
 └┬❖  
-┌┤✑  Thanks for using X-PairCode
+┌┤✑  Thanks for using RHODVICK-PairCode
 │└────────────┈ ⳹        
 │©2020-2023 XeonBotInc 
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
